@@ -1,0 +1,187 @@
+:root{
+    --main-color: #000000;
+    --border-color: #E5E5E5;
+    --button-color: #030305;
+    --white-color: #FFFFFF;
+    --dark-grey-color:#5D5D5F;
+    --hover-color:#f754e1;
+}
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+}
+
+.ul,
+li {
+  list-style-type: none;
+}
+.header{
+    border-bottom:  1px solid var(--border-color);
+}
+.container{
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.header__container{
+    max-width: 733px;
+    padding: 0 20px;
+}
+
+.header__wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    margin: 25px 0;
+}
+
+.header__menu{
+    width: 457px;
+    display: flex;
+    justify-content: space-around;
+    margin: 36px 0px;
+}
+
+.header__menu_item{
+    color: var(--main-color);
+    cursor: pointer;
+    font-family:'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    transition: all .3s;
+}
+.header__menu_item:hover,
+.button:hover{
+    transition: all .3s;
+    color: var(--hover-color);
+}
+.section__main{
+    background: url(../img/background.png)center center/cover no-repeat;
+}
+
+.main__title{
+    font-family:'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    padding: 105px 0 40px;
+}
+.text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    margin-bottom: 40px;
+    max-width: 502px;
+}
+
+.button{
+    background: var(--button-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--white-color);
+    padding: 20px 50px;
+    display: inline-block;
+    margin: 0 0 130px;
+    transition: all .3s;
+}
+
+.section__card{
+    padding: 100px 0;
+}
+
+.subtitle{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+}
+
+.card__cars{
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card__cars__item{
+    max-width: 360px;
+}
+.card__cars__item-subtitle{
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+}
+.card__cars__item-img{
+    width: 384px;
+    height: 246px;
+    padding: 0 0 15px;
+}
+
+.card__cars__item-img-wrap{
+    padding: 17px 0 0 ;
+}
+
+.card__cars__item-button{
+    padding: 15px 122px;
+    margin: 13px 0 0;
+}
+
+.form__subtitle{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: var(--dark-grey-color);
+    margin: 20px 0 0;
+}
+
+.section__form{
+    background-image: url(../img/rolls.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+}
+
+.form__form_wrap{
+    padding: 60px 0 122px 0;
+}
+.form__form_input_block{
+    border: 1px solid var(--dark-grey-color);
+    padding: 22px 177px 22px 18px;
+    margin-bottom: 15px;
+}
+
+.section__footer{
+    border-top: 1px solid var(--border-color);
+
+}
+.footer_wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.footer__text{
+   display: inline-block; 
+   align-items: center;
+   margin-top: 32px;
+}
+
+
